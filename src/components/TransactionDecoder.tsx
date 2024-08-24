@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Connection, PublicKey, ParsedTransactionWithMeta, PartiallyDecodedInstruction, ParsedInstruction } from '@solana/web3.js';
 
-const SOLANA_NETWORK = 'https://solana-api.projectserum.com';
+const SOLANA_NETWORK = 'https://mainnet.helius-rpc.com/?api-key=339fa552-1c81-40e1-97e1-6cc75178ff57';
 
 export default function TransactionDecoder() {
   const [signature, setSignature] = useState('');
